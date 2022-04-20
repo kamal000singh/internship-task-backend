@@ -13,6 +13,7 @@
 ## 1) [http://localhost:8080/adduser](http://localhost:8080/adduser) Rest API
 
 We use POST method in this API. In this rest API we send name,trips,airline id to passenger API and Passenger API automatically pick airline details through airline id and then we get response in json format like this 
+```
 response : {
   "_id": "625fca37b168d42be6302fc4",
   "name": "kamal singh rawat",
@@ -31,7 +32,7 @@ response : {
   ],
   "__v": 0
 }
-
+```
 
 ## 2) [http://localhost:8080/userlist](http://localhost:8080/userlist) Rest API
 
